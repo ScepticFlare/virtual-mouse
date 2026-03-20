@@ -1,4 +1,4 @@
-# ✋ Virtual Mouse — Hand Gesture Control
+#  Virtual Mouse — Hand Gesture Control
 
 Control your computer's mouse cursor using just your hand and a webcam. Built with **OpenCV**, **MediaPipe**, and **PyAutoGUI**.
 
@@ -9,13 +9,13 @@ Control your computer's mouse cursor using just your hand and a webcam. Built wi
 
 ---
 
-## 🎯 Features
+##  Features
 
 | Gesture | Action |
 |---|---|
-| ☝️ **Index finger up** (only) | Move cursor |
-| ✌️ **Index + Middle fingers up** | Left click |
-| ✊ **Fist / other gestures** | No action (idle) |
+|  **Index finger up** (only) | Move cursor |
+|  **Index + Middle fingers up** | Left click |
+|  **Fist / other gestures** | No action (idle) |
 
 - **Real-time hand tracking** using MediaPipe's 21-point hand landmark model
 - **Smooth cursor movement** with configurable smoothening factor
@@ -26,7 +26,7 @@ Control your computer's mouse cursor using just your hand and a webcam. Built wi
 
 ---
 
-## 📸 How It Works
+##  How It Works
 
 1. Webcam captures live video feed
 2. MediaPipe detects hand landmarks (21 key points)
@@ -38,7 +38,7 @@ Control your computer's mouse cursor using just your hand and a webcam. Built wi
 
 ---
 
-## 🛠️ Setup
+##  Setup
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ A window titled **"Virtual Mouse"** will open showing your webcam feed with hand
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 You can tweak these values at the top of `cv.py`:
 
@@ -87,7 +87,7 @@ You can tweak these values at the top of `cv.py`:
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - **[OpenCV](https://opencv.org/)** — webcam capture and video display
 - **[MediaPipe](https://mediapipe.dev/)** — real-time hand landmark detection
@@ -96,7 +96,7 @@ You can tweak these values at the top of `cv.py`:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 virtual-mouse/
@@ -109,7 +109,7 @@ virtual-mouse/
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - Works best in **well-lit environments** with a clear background
 - Only tracks **one hand** at a time (configurable in code)
@@ -118,6 +118,6 @@ virtual-mouse/
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
